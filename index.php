@@ -15,7 +15,7 @@
         for($i = 0; $i < count($answers); $i++) {
             $answer_output .= "<input type='radio' id='".$answers[$i]."' name='risposta' value='".$answers[$i]."' <label for='".$answers[$i]."'> ".$answers[$i]." </label> <br>";
         } 
-        echo $answer_output;
+        echo $answer_output .= "</form>";
     ?>
 
 </body>
